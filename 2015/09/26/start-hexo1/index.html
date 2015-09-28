@@ -32,7 +32,7 @@
 
 
 
-  <meta name="keywords" content="GitHubPage,hexo," />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -41,21 +41,16 @@
   <link rel="shorticon icon" type="image/x-icon" href="/ironman.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="实习期间，在看公司文档时，无意中发现一个自己关注很久的博主竟是自己的同事，而且还是自己的师兄，真的是非常幸运，师兄墙裂推荐我使用github page来搭建自己的博客，虽然自己之前也有在CSDN上写博客，但是体验不怎么好，没有坚持下去，平时更多的是写笔记。当我第一次看到github page的时候，感觉终于找到了我要的东西了，下面就分享一下我搭建博客的过程吧。">
+<meta name="description" content="这篇博文主要介绍Hexo的配置安装和Hexo的常用命令，还有如何部署博客到GitHub。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo搭建GitHub博客（一）- 环境搭建">
-<meta property="og:url" content="http://zhiho.github.io/2015/09/21/start-hexo/index.html">
+<meta property="og:title" content="Hexo搭建GitHub博客（二）- Hexo配置使用">
+<meta property="og:url" content="http://zhiho.github.io/2015/09/26/start-hexo1/index.html">
 <meta property="og:site_name" content="Zhiho's Blog">
-<meta property="og:description" content="实习期间，在看公司文档时，无意中发现一个自己关注很久的博主竟是自己的同事，而且还是自己的师兄，真的是非常幸运，师兄墙裂推荐我使用github page来搭建自己的博客，虽然自己之前也有在CSDN上写博客，但是体验不怎么好，没有坚持下去，平时更多的是写笔记。当我第一次看到github page的时候，感觉终于找到了我要的东西了，下面就分享一下我搭建博客的过程吧。">
-<meta property="og:image" content="http://zhiho.github.io/img/start-hexo/githubpage1.png">
-<meta property="og:image" content="http://zhiho.github.io/img/start-hexo/githubpage2.png">
-<meta property="og:image" content="http://zhiho.github.io/img/start-hexo/githubpage3.png">
-<meta property="og:image" content="http://zhiho.github.io/img/start-hexo/githubpage4.png">
-<meta property="og:image" content="http://zhiho.github.io/img/start-hexo/githubpage5.png">
-<meta property="og:updated_time" content="2015-09-28T08:33:42.568Z">
+<meta property="og:description" content="这篇博文主要介绍Hexo的配置安装和Hexo的常用命令，还有如何部署博客到GitHub。">
+<meta property="og:updated_time" content="2015-09-28T15:35:51.624Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo搭建GitHub博客（一）- 环境搭建">
-<meta name="twitter:description" content="实习期间，在看公司文档时，无意中发现一个自己关注很久的博主竟是自己的同事，而且还是自己的师兄，真的是非常幸运，师兄墙裂推荐我使用github page来搭建自己的博客，虽然自己之前也有在CSDN上写博客，但是体验不怎么好，没有坚持下去，平时更多的是写笔记。当我第一次看到github page的时候，感觉终于找到了我要的东西了，下面就分享一下我搭建博客的过程吧。">
+<meta name="twitter:title" content="Hexo搭建GitHub博客（二）- Hexo配置使用">
+<meta name="twitter:description" content="这篇博文主要介绍Hexo的配置安装和Hexo的常用命令，还有如何部署博客到GitHub。">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -65,7 +60,7 @@
   };
 </script>
 
-  <title> Hexo搭建GitHub博客（一）- 环境搭建 | Zhiho's Blog </title>
+  <title> Hexo搭建GitHub博客（二）- Hexo配置使用 | Zhiho's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -182,7 +177,7 @@
           
           
             
-              Hexo搭建GitHub博客（一）- 环境搭建
+              Hexo搭建GitHub博客（二）- Hexo配置使用
             
           
         </h1>
@@ -191,8 +186,8 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-09-21T18:01:55+08:00" content="2015-09-21">
-            2015-09-21
+          <time itemprop="dateCreated" datetime="2015-09-26T11:45:13+08:00" content="2015-09-26">
+            2015-09-26
           </time>
         </span>
 
@@ -217,8 +212,8 @@
           
             <span class="post-comments-count">
               &nbsp; | &nbsp;
-              <a href="/2015/09/21/start-hexo/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/21/start-hexo/" itemprop="commentsCount"></span>
+              <a href="/2015/09/26/start-hexo1/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/26/start-hexo1/" itemprop="commentsCount"></span>
               </a>
             </span>
                 
@@ -239,15 +234,35 @@
       
 
       
-        <span itemprop="articleBody"><p>实习期间，在看公司文档时，无意中发现一个自己关注很久的博主竟是自己的同事，而且还是自己的师兄，真的是非常幸运，师兄墙裂推荐我使用github page来搭建自己的博客，虽然自己之前也有在CSDN上写博客，但是体验不怎么好，没有坚持下去，平时更多的是写笔记。当我第一次看到github page的时候，感觉终于找到了我要的东西了，下面就分享一下我搭建博客的过程吧。<br><a id="more"></a></p>
-<h2 id="安装_Git_+_NodeJS_环境">安装 Git + NodeJS 环境</h2><h3 id="安装Git">安装Git</h3><p>下载地址：<a href="http://git-scm.com/downloads" target="_blank" rel="external">http://git-scm.com/downloads</a></p>
-<p>附上廖雪峰的Git经典入门教程: <a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git入门教程</a></p>
-<h3 id="安装NodeJS">安装NodeJS</h3><p>下载地址：<a href="http://nodejs.org/download/" target="_blank" rel="external">http://nodejs.org/download/</a><br>安装时保持默认配置就可以了</p>
-<h2 id="设置GitHub">设置GitHub</h2><h3 id="注册github">注册github</h3><p>地址: <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a><br>按照网站提示注册就可以了，注册成功后要去自己的邮箱验证，要验证后才能发布自己的github page。</p>
-<h3 id="创建github_page">创建github page</h3><p>仓库的名字要和你的账号对应，如zhiho.github.io<br>填写站点的描述，然后选择Create repository<br><img src="/img/start-hexo/githubpage1.png" alt=""></p>
-<h3 id="进入github_page项目设置页面">进入github page项目设置页面</h3><p>选择Settings<br><img src="/img/start-hexo/githubpage2.png" alt=""></p>
-<h3 id="创建一个默认的页面">创建一个默认的页面</h3><p>直接选择Launch automatic -&gt; Continue to layouts page generator -&gt; Publish page,其他东西都不用修改。<br><img src="/img/start-hexo/githubpage3.png" alt=""><br><img src="/img/start-hexo/githubpage4.png" alt=""><br><img src="/img/start-hexo/githubpage5.png" alt=""></p>
-<h3 id="查看效果">查看效果</h3><p>至此，你的github page已经创建完成，你可以访问自己的站点了。<br>如：<a href="http://zhiho.github.io/">http://zhiho.github.io/</a><br>效果就是上一步中你所选择的主题，后续我们可以根据自己的喜好选择主题，我选择的是next主题，在后续文章中我会介绍next主题的配置。</p>
+        <span itemprop="articleBody"><p>这篇博文主要介绍Hexo的配置安装和Hexo的常用命令，还有如何部署博客到GitHub。<br><a id="more"></a></p>
+<h2 id="Hexo安装">Hexo安装</h2><p>打开Git命令行，执行如下命令<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="初始化博客">初始化博客</h2><p>在电脑上建立一个自己博客的文件夹（如E:\Hexo，以下教程都以这个目录为博客根目录），然后在此目录下打开Git Bash，执行如下命令<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo init</span><br></pre></td></tr></table></figure></p>
+<p>这时候会输出<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO Copying data e:\Hexo</span><br><span class="line">INFO You are almost done! Don't forget <span class="keyword">to</span> <span class="command">run</span> `npm install` <span class="keyword">before</span> you start blogging <span class="keyword">with</span> Hexo!</span><br></pre></td></tr></table></figure></p>
+<p>在E:\Hexo目录下会生成以下文件</p>
+<blockquote>
+<p>source：用于存放我们用markdown编写的博文源文件和静态资源<br>themes：用于存放主题文件，每个主题也有自己的主题配置文件_config.yml文件<br>_config.yml：站点配置文件，用于配置博客信息，如作者，博客名称等</p>
+</blockquote>
+<p>按照提示运行npm install命令，在E:\Hexo目录下会增加一个node_modules文件夹<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure></p>
+<p>至此，博客的安装部署工作基本完成了，下面我们学习一下hexo的基本操作命令</p>
+<h2 id="Hexo命令">Hexo命令</h2><h3 id="启动Server">启动Server</h3><p>运行以下命令<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure></p>
+<p>Hexo server启动后，在浏览器中打开<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 即可访问自己的博客，按Ctrl+C停止</p>
+<h3 id="创建文章">创建文章</h3><p>运行以下命令，可生成一篇文章，刷新<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 即可看到新生成的文章。<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> <span class="string">"new-post"</span></span><br></pre></td></tr></table></figure></p>
+<p>同时在E:\Hexo\source\ _posts目录下会生成一个”new-post.md”的markdown文件，可以使用一个支持markdown语法的编辑器来编辑该文件，刷新<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 即可看到修改后的结果。</p>
+<p>打开这个文件<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: <span class="keyword">new</span>-post <span class="preprocessor">#文章标题</span></span><br><span class="line">date: <span class="number">2015</span>-<span class="number">09</span>-<span class="number">26</span> <span class="number">17</span>:<span class="number">00</span>:<span class="number">07</span> <span class="preprocessor">#发表日期</span></span><br><span class="line">categories: blog <span class="preprocessor">#文章文类</span></span><br><span class="line">tags: [博客，文章] <span class="preprocessor">#文章标签，多于一项时用这种格式</span></span><br><span class="line">---</span><br><span class="line"><span class="preprocessor"># 正文，用markdown写</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="生成静态网页">生成静态网页</h3><p>运行以下命令，将markdown文件生成静态网页。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo generate</span><br></pre></td></tr></table></figure></p>
+<p>同时在E:\Hexo目录下会生成一个public文件夹，里面是生成的静态文件。</p>
+<h2 id="部署到GitHub">部署到GitHub</h2><p>至此我们已经可以在本地访问自己的博客了，但是只有本地能够看到，要部署到GitHub上面别人才能看到。我们可以在本地调试编辑好文章后再推送到GitHub上面。下面是部署到GitHub的过程。</p>
+<h3 id="创建github_page">创建github page</h3><p>在第一篇文章中我们已经在自己的github中创建了自己的github page。参考<a href="http://zhiho.github.io/2015/09/21/start-hexo/">Hexo搭建GitHub博客（一）- 环境搭建</a></p>
+<h3 id="安装自动部署到GitHub的插件">安装自动部署到GitHub的插件</h3><p>在初始化博客的时候运行的npm install命令默认并没有安装这个插件，所以要手动安装。<br>运行以下命令<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="keyword">install</span> hexo-deployer-git</span><br></pre></td></tr></table></figure></p>
+<h3 id="修改站点配置文件">修改站点配置文件</h3><p>修改位于E:\Hexo目录下的<code>_config.yml</code>文件<br>找到以下内容<br><figure class="highlight haskell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Deployment</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="title">deploy</span>:</span><br><span class="line">  <span class="typedef"><span class="keyword">type</span>:</span></span><br></pre></td></tr></table></figure></p>
+<p>修改为<br><figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Deployment</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/zhiho/zhiho.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<p>Repository是自己github page的项目地址</p>
+<h3 id="运行hexo_deploy命令">运行hexo deploy命令</h3><p>运行以下命令<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo deploy</span><br></pre></td></tr></table></figure></p>
+<p>过程中会提示输入你的github账号和密码，等待命令运行完成即可。部署完成后，在浏览器中访问<a href="http://zhiho.github.io/">http://zhiho.github.io/</a> 能够看到你在本地调试好的博客，表示部署成功！</p>
+<h3 id="部署步骤总结">部署步骤总结</h3><p>至此，部署到GitHub的工作已经完成，之后如果我们希望对自己的博客进行修改或者需要发布新的文章时，可以按以下三步进行。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo clean <span class="comment"># 删除已经生成的静态页面</span></span><br><span class="line"><span class="variable">$ </span>hexo generate</span><br><span class="line"><span class="variable">$ </span>hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h2 id="命令总结">命令总结</h2><h3 id="常用命令">常用命令</h3><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"postName"</span> <span class="preprocessor">#新建文章</span></span><br><span class="line">hexo generate <span class="preprocessor">#生成静态页面至public目录</span></span><br><span class="line">hexo <span class="keyword">server</span> <span class="preprocessor">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy <span class="preprocessor">#将.deploy目录部署到GitHub</span></span><br><span class="line">hexo help  <span class="preprocessor"># 查看帮助</span></span><br><span class="line">hexo version  <span class="preprocessor">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure>
+<p>生成静态文件并启动本地服务<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> s -g</span><br></pre></td></tr></table></figure></p>
+<h3 id="命令简写">命令简写</h3><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">n</span> == hexo new</span><br><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span></span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy</span><br></pre></td></tr></table></figure>
 </span>
       
     </div>
@@ -255,8 +270,6 @@
     <footer class="post-footer">
       
         <div class="post-tags">
-          
-            <a href="/tags/GitHubPage/" rel="tag">#GitHubPage</a>
           
             <a href="/tags/hexo/" rel="tag">#hexo</a>
           
@@ -267,11 +280,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/09/26/start-hexo1/" rel="prev">Hexo搭建GitHub博客（二）- Hexo配置使用</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/09/21/start-hexo/" rel="next">Hexo搭建GitHub博客（一）- 环境搭建</a>
             
           </div>
         </div>
@@ -296,8 +309,8 @@
         
           <div class="comments" id="comments">
             
-              <div class="ds-thread" data-thread-key="2015/09/21/start-hexo/"
-                   data-title="Hexo搭建GitHub博客（一）- 环境搭建" data-url="http://zhiho.github.io/2015/09/21/start-hexo/">
+              <div class="ds-thread" data-thread-key="2015/09/26/start-hexo1/"
+                   data-title="Hexo搭建GitHub博客（二）- Hexo配置使用" data-url="http://zhiho.github.io/2015/09/26/start-hexo1/">
               </div>
             
           </div>
@@ -396,7 +409,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装_Git_+_NodeJS_环境"><span class="nav-number">1.</span> <span class="nav-text">安装 Git + NodeJS 环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Git"><span class="nav-number">1.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装NodeJS"><span class="nav-number">1.2.</span> <span class="nav-text">安装NodeJS</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置GitHub"><span class="nav-number">2.</span> <span class="nav-text">设置GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注册github"><span class="nav-number">2.1.</span> <span class="nav-text">注册github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建github_page"><span class="nav-number">2.2.</span> <span class="nav-text">创建github page</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#进入github_page项目设置页面"><span class="nav-number">2.3.</span> <span class="nav-text">进入github page项目设置页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建一个默认的页面"><span class="nav-number">2.4.</span> <span class="nav-text">创建一个默认的页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看效果"><span class="nav-number">2.5.</span> <span class="nav-text">查看效果</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo安装"><span class="nav-number">1.</span> <span class="nav-text">Hexo安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化博客"><span class="nav-number">2.</span> <span class="nav-text">初始化博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo命令"><span class="nav-number">3.</span> <span class="nav-text">Hexo命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动Server"><span class="nav-number">3.1.</span> <span class="nav-text">启动Server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建文章"><span class="nav-number">3.2.</span> <span class="nav-text">创建文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成静态网页"><span class="nav-number">3.3.</span> <span class="nav-text">生成静态网页</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署到GitHub"><span class="nav-number">4.</span> <span class="nav-text">部署到GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建github_page"><span class="nav-number">4.1.</span> <span class="nav-text">创建github page</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装自动部署到GitHub的插件"><span class="nav-number">4.2.</span> <span class="nav-text">安装自动部署到GitHub的插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改站点配置文件"><span class="nav-number">4.3.</span> <span class="nav-text">修改站点配置文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行hexo_deploy命令"><span class="nav-number">4.4.</span> <span class="nav-text">运行hexo deploy命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署步骤总结"><span class="nav-number">4.5.</span> <span class="nav-text">部署步骤总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#命令总结"><span class="nav-number">5.</span> <span class="nav-text">命令总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用命令"><span class="nav-number">5.1.</span> <span class="nav-text">常用命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#命令简写"><span class="nav-number">5.2.</span> <span class="nav-text">命令简写</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
